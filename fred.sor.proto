@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package fred;
+
+message null {
+}
+
+service FredSoR {
+  rpc Nothing (null) returns (null);
+}
